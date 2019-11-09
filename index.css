@@ -47,17 +47,15 @@ nav a {
 .dr3_article01 {font-family: 'Noto Sans KR', sans-serif;}
 .a01_img {
   width:550px;
-  margin:0 auto;
-  display: grid;
+  display: table;
   position: relative;
-  float: left;
 }
 .a01_img p {
   font-size: 10px;
   color:#666;
-
+  display: table-cell;
 }
-.a01_img img {width:80%; margin: auto; text-align: center;}
+.a01_img img {width:80%; margin: auto;}
 .a01_name { position:absolute; }
 .a01_name h1 {
   font-family: 'Montserrat', sans-serif;
