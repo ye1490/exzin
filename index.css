@@ -22,8 +22,9 @@ nav a {
         height: 40px;
         z-index: 999;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 800;
+        font-weight: 600;
         font-size: 20px;
+        letter-spacing: 1px;
         line-height: 40px;
         color:#5339e6;
         padding-left: 60px;
