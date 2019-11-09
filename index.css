@@ -49,14 +49,14 @@ nav a {
   width:550px;
   margin:0 auto;
   display: grid;
-  position: absolute;
-
+  position: relative;
+  float: left;
 }
 .a01_img p {
   font-size: 10px;
   color:#666;
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
+  /*-webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);*/
 }
 .a01_img img {width:80%; margin: auto; text-align: center;}
 .a01_name { position:absolute; }
