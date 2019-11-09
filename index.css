@@ -47,7 +47,6 @@ nav a {
 .dr3_article01 { position:relative; width:100%; font-family: 'Noto Sans KR', sans-serif;}
 .a01_img {
   width:550px;
-  display: inline-table;
   position: absolute;
   left: 50px;
 }
