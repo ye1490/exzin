@@ -46,8 +46,8 @@ nav a {
 .section01 { position:relative; width:100%; }
 .dr3_article01 { position:relative; width:100%; font-family: 'Noto Sans KR', sans-serif;}
 .a01 {
-  width:550px;
-  position: relative;
+  width:350px;
+  position: absolute;
 }
 
 .category {
@@ -63,19 +63,23 @@ nav a {
     -ms-transform-origin: right bottom;
 }
 .a01_img {
-  position: relative;
+
 }
-.a01_img img {width:80%; margin: auto;}
-.a01_name { position:absolute; bottom: -30px;}
+.a01_img img {width:100%; margin: auto;}
+.a01_name { margin-top: -50px;}
 .a01_name h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 26px;
-  font-weight: 800;
+  font-size: 50px;
+  line-height: 37px;
+  font-weight: 900;
   color:#000;
  }
 .a01_name h3 {
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 800;
+  color:#000;
+  text-align: right;
+  padding-right: 30px;
 }
 
 .a01_list li a {
