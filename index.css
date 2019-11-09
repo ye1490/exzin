@@ -45,12 +45,15 @@ nav a {
 }
 .section01 { position:relative; width:100%; }
 .dr3_article01 { position:relative; width:100%; font-family: 'Noto Sans KR', sans-serif;}
-.a01_img {
+.a01 {
   width:550px;
-  position: absolute;
-  left: 50px;
+  position: relative;
 }
-.a01_img p {
+
+.category {
+  position: absolute;
+  top:0;
+  left:30px;
   font-size: 10px;
   color:#666;
   white-space: nowrap;
@@ -59,13 +62,11 @@ nav a {
     -ms-transform: rotate(-90deg);
     -ms-transform-origin: right bottom;
 }
-.a01_img > .category {
-  position: absolute;
-  top:0;
-  left:30px;
+.a01_img {
+  position: relative;
 }
 .a01_img img {width:80%; margin: auto;}
-.a01_name { position:absolute; }
+.a01_name { position:absolute; bottom: -30px;}
 .a01_name h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 26px;
