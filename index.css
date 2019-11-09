@@ -42,17 +42,17 @@ nav a {
          color:000;
 }
 .section01 { position:relative; width:100%; }
-.section01 dr3_article01 {font-family: 'Noto Sans KR', sans-serif;}
-.section01 a01_img { width:550px; margin:0 auto; display:block; position: absolute;}
-.section01 a01_img p {font-size: 10px; color:#666;}
-.section01 a01_img img {width:100%; margin: auto;}
-.section01 a01_name h1 {
+dr3_article01 {font-family: 'Noto Sans KR', sans-serif;}
+a01_img { width:550px; margin:0 auto; display:block; position: absolute;}
+a01_img p {font-size: 10px; color:#666;}
+a01_img img {width:100%; margin: auto;}
+a01_name h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 26px;
   font-weight: 800;
   color:000;
  }
-.section01 a01_name h3 {
+a01_name h3 {
   font-size: 18px;
   font-weight: 800;
 }
