@@ -54,12 +54,16 @@ nav a {
 .a01_img p {
   font-size: 10px;
   color:#666;
-  display: table-cell;
   white-space: nowrap;
     transform: rotate(-90deg);
     transform-origin: right bottom;
     -ms-transform: rotate(-90deg);
     -ms-transform-origin: right bottom;
+}
+.a01_img > .category {
+  position: absolute;
+  top:0;
+  left:30px;
 }
 .a01_img img {width:80%; margin: auto;}
 .a01_name { position:absolute; }
