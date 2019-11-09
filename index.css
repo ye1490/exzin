@@ -54,6 +54,8 @@ nav a {
   font-size: 10px;
   color:#666;
   display: table-cell;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
 }
 .a01_img img {width:80%; margin: auto;}
 .a01_name { position:absolute; }
