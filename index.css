@@ -159,7 +159,6 @@ nav a {
 }
 
 .cg_a01 {
-  width:100%;
   position: absolute;
   left: 4rem;
 }
@@ -170,10 +169,12 @@ nav a {
   margin: 0 auto;
   text-align: center;
 }
+.cg_sec01 img {
+  min-width:50%;
+}
 
 .cg-logo {
-  width:100%;
   position: absolute;
-  bottom: 20%;
-  right:0;
+  bottom: 30%;
+  right:-40px;
 }
