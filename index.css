@@ -24,13 +24,16 @@ nav a {
 .name {
         height: 40px;
         z-index: 999;
+        margin-left: 60px;
+}
+
+.name a {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 36px;
         letter-spacing: 1px;
         line-height: 80px;
         color:#5339e6;
-        margin-left: 60px;
 }
 
 #container { margin:0 60px; }
@@ -147,4 +150,30 @@ nav a {
 
 }
 
-/*--- Catalina --->
+/*--- Catalina ---*/
+
+.section02 {
+  width:100%;
+  height: 1000px;
+  visibility: inherit;
+}
+
+.cg_a01 {
+  width:100%;
+  position: absolute;
+  left: 4rem;
+}
+
+.cg_sec01 {
+  width:100%;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cg-logo {
+  width:100%;
+  position: absolute;
+  bottom: 20%;
+  right:0;
+}
