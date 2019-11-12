@@ -158,16 +158,19 @@ nav a {
   visibility: inherit;
 }
 
+.cg_article01 {
+  float: left;
+  position: relative;
+}
+
 .cg_a01 {
-  position: absolute;
-  left: 4rem;
+  width: 100%;
 }
 
 .cg_sec01 {
-  width:100%;
   position: relative;
   margin: 0 auto;
-  text-align: center;
+  left:0;
 }
 .cg_sec01 img {
   min-width:50%;
@@ -176,5 +179,5 @@ nav a {
 .cg-logo {
   position: absolute;
   bottom: 30%;
-  right:-40px;
+  right:0px;
 }
