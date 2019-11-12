@@ -163,12 +163,14 @@ nav a {
   position: relative;
   width: 100%;
   display: inline-flex;
+  margin: 0 !important;
 }
 
 .cg_a01 {
   width: 100%;
   height: 100%;
-  padding-right: 10%;
+  padding-right: 5%;
+  position: relative;
 }
 
 .cg_sec01 {
@@ -191,12 +193,11 @@ nav a {
   width: 100%;
   height: 100%;
   position: relative;
+  top: 30em;
 }
 
 .cg_sec02 {
   width: 100%;
-  position: absolute;
-  top: 25em;
 }
 
 .cg_sec02 p:nth-child(1){
@@ -217,7 +218,7 @@ nav a {
 
 .cg_sec02 img {
   width: 100%;
-  min-width: 500px;
+  min-width: 400px;
 }
 
 .cg_sec02 .Title {
@@ -230,7 +231,47 @@ nav a {
   transform-origin: right bottom;
   -ms-transform: rotate(-90deg);
   -ms-transform-origin: right bottom;
-  top:55%;
-  left: -5%
-  padding-right:20px;
+  top: -28px;
+  left: -275px%
+  padding-right:10px;
+}
+
+.lip {
+  position: absolute;
+  bottom: 380px;
+  z-index: -9;
+  left: -300px;
+}
+
+
+.cg_texture {
+  width: 100%;
+  position: relative;
+}
+
+.cg_sec03 {
+  width: 100%;
+}
+
+.cg_sec03 img {
+  width: 100%;
+  min-height: 250px;
+  max-width: 470px;
+}
+
+.cg_name h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  line-height: 37px;
+  font-weight: 800;
+  padding-left: 20px;
+  color:#000;
+}
+
+.cg_name h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color:#000;
+  text-align: right;
+  padding-right: 45px;
 }
