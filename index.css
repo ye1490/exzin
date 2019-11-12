@@ -161,23 +161,75 @@ nav a {
 .cg_article01 {
   float: left;
   position: relative;
+  width: 100%;
+  display: inline-flex;
 }
 
 .cg_a01 {
   width: 100%;
+  height: 100%;
+  padding-right: 5%;
 }
 
 .cg_sec01 {
   position: relative;
   margin: 0 auto;
   left:0;
+  width: 100%;
 }
 .cg-sec-img img {
-  min-width:50%;
+  min-width:200px;
 }
 
 .cg-logo {
   position: absolute;
-  bottom: 30%;
-  right:0px;
+  bottom: 26%;
+  right:-50px;
+}
+
+.cg_a02 {
+  height: 100%;
+  position: relative;
+}
+
+.cg_sec02 {
+  width: 100%;
+  position: absolute;
+  top: 25em;
+}
+
+.cg_sec02 p:nth-child(1){
+  position: absolute;
+  top:10px;
+  left: 10px;
+}
+
+.cg_sec02 p:nth-child(2){
+  position: absolute;
+  top:10px;
+  right: 10px;
+}
+
+.cg_sec02 a {
+  position: relative;
+}
+
+.cg_sec02 img {
+  width: 100%;
+  min-width: 500px;
+}
+
+.cg_sec02 .Title {
+  position: absolute;
+}
+
+.cg_cate {
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: right bottom;
+  -ms-transform: rotate(-90deg);
+  -ms-transform-origin: right bottom;
+  top:55%;
+  left: -5%
+  padding-right:20px;
 }
