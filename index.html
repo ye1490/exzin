@@ -20,23 +20,17 @@
 
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
-<script type="text/javascript">
+<script src="js/includeHTML.js"></script>
 
-    $(document).ready( function() {
-
-        $("#header").load("/common/header.html");
-        $("#footer").load("/common/footer.html");
-
-    });
-
-</script>
 
 <div id="loaded"></div>
 </head>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script>includeHTML();</script>
 <body>
 
-<div id="#header"></div>
+
+<div include-html="/common/header.html"></div>
 
 
 
@@ -52,7 +46,7 @@
   <div class="section01">
     <div class="dr3_article01">
       <div class="a01">
-        <a href="#" class="a01_img">
+        <a href="/dr3.html" class="a01_img">
           <img src="https://ye1490.github.io/exzin/images/main_03.jpg">
         </a>
 
@@ -142,5 +136,6 @@
 
 </div>
 
-<div id="#footer"></div>
+<div include-html="/common/footer.html"></div>
+
 </html>
