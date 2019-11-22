@@ -1,13 +1,15 @@
 
+::selection { background: #5339e6; color: #fff;}
+a:hover { color:#000; text-decoration: none; outline: 1px dashed #5339e6;}
 
-#container { margin:0 60px; }
+#container { margin:0 50px; }
 
 .intro { position: relative; width:100%; height: 400px;}
 .intro_txt { position: absolute; right:130px; top:200px; }
 .intro_txt h2, .intro_txt h2 a{
          text-align: right;
-         font-size:19px;
-         line-height: 28px;
+         font-size:2.5rem;
+         line-height: 1.6;
          margin:0;
          font-family: 'Noto Sans KR', sans-serif;
          font-weight: 700;
@@ -63,7 +65,7 @@
   list-style: none;
   color: #000;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 1.2rem;
   line-height: 27px;
 }
 
@@ -118,27 +120,27 @@
 
 .section02 {
   width:100%;
-  height: 1000px;
-  visibility: inherit;
+  height: 1500px;
 }
 
 .cg_article01 {
-  float: left;
   position: relative;
+  top:300px;
   width: 100%;
+  height:100%;
   display: inline-flex;
   margin: 0 !important;
 }
 
 .cg_a01 {
-  width: 100%;
   height: 100%;
-  padding-right: 5%;
-  position: relative;
+    width:40%;
+  padding-right: 10%;
+  position: absolute;
+  top:11em;
 }
 
 .cg_sec01 {
-  position: relative;
   margin: 0 auto;
   left:0;
   width: 100%;
@@ -149,31 +151,36 @@
 
 .cg-logo {
   position: absolute;
-  bottom: 120px;
-  right:-70px;
+  left:320px;
+    top:280px;
 }
 
 .cg_a02 {
-  width: 100%;
+  width: 40%;
   height: 100%;
-  position: relative;
-  top: 30em;
+  position: absolute;
+  top: 50em;
+    left:30%;
+
 }
 
 .cg_sec02 {
   width: 100%;
+  position:relative;
 }
 
 .cg_sec02 p:nth-child(1){
   position: absolute;
   top:10px;
   left: 10px;
+  z-index:10;
 }
 
 .cg_sec02 p:nth-child(2){
   position: absolute;
   top:10px;
   right: 10px;
+  z-index:10;
 }
 
 .cg_sec02 a {
@@ -202,15 +209,18 @@
 
 .lip {
   position: absolute;
-  bottom: 380px;
+  bottom: 40px;
   z-index: -9;
-  left: -300px;
+  left: -270px;
 }
 
 
 .cg_texture {
-  width: 100%;
-  position: relative;
+  width: 30%;
+    height:100%;
+  position: absolute;
+  right:-50px;
+  top:0px;
 }
 
 .cg_sec03 {
@@ -239,3 +249,13 @@
   text-align: right;
   padding-right: 45px;
 }
+
+.cg_list li a {
+  list-style: none;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 27px;
+}
+
+.graybox { width:150px; height:340px; position:absoulte; }
